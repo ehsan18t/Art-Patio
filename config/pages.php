@@ -30,7 +30,7 @@
 
     // Resources
     const CSS = array(
-        'styles.css' => DOMAIN . '/css/styles.css'
+        'login-signup.css' => DOMAIN . '/css/login-signup.css'
     );
 
     const JS = array(
