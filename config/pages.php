@@ -21,7 +21,7 @@
     const INCLUDES = array(
         'connection' => INC_DOMAIN . '/include/connection.php',
         'main-function' => INC_DOMAIN . '/include/main-function.php',
-        'header-template' => INC_DOMAIN . 'template/header.php',
+        'header-template' => INC_DOMAIN . '/template/header.php',
         'footer-template' => INC_DOMAIN . '/template/footer.php'
     );
 
@@ -34,17 +34,29 @@
     );
 
     const IMG = array(
-        '1' =>  DOMAIN . '/img/1.png',
-        '2' =>  DOMAIN . '/img/2.png',
-        '3' =>  DOMAIN . '/img/3.png',
-        '4' =>  DOMAIN . '/img/4.png',
-        '5' =>  DOMAIN . '/img/5.png',
-        '6' =>  DOMAIN . '/img/6.png',
-        '7' =>  DOMAIN . '/img/7.png',
-        '8' =>  DOMAIN . '/img/8.png',
-        '9' =>  DOMAIN . '/img/9.png',
-        '10' =>  DOMAIN . '/img/10.png',
-        '11' =>  DOMAIN . '/img/11.png'
+        '1' =>  DOMAIN . '/img/1.jpg',
+        '2' =>  DOMAIN . '/img/2.jpg',
+        '3' =>  DOMAIN . '/img/3.jpg',
+        '4' =>  DOMAIN . '/img/4.jpg',
+        '5' =>  DOMAIN . '/img/5.jpg',
+        '6' =>  DOMAIN . '/img/6.jpg',
+        '7' =>  DOMAIN . '/img/7.jpg',
+        '8' =>  DOMAIN . '/img/8.jpg',
+        '9' =>  DOMAIN . '/img/9.jpg',
+        '10' =>  DOMAIN . '/img/10.jpg',
+        '11' =>  DOMAIN . '/img/11.jpg',
+        '12' =>  DOMAIN . '/img/12.jpg',
+        '13' =>  DOMAIN . '/img/13.jpg',
+        '14' =>  DOMAIN . '/img/14.jpg',
+        '15' =>  DOMAIN . '/img/15.jpg',
+        '16' =>  DOMAIN . '/img/16.jpg',
+        '17' =>  DOMAIN . '/img/17.jpg',
+        '18' =>  DOMAIN . '/img/18.jpg',
+        '19' =>  DOMAIN . '/img/19.jpg',
+        '20' =>  DOMAIN . '/img/20.jpg',
+        'ins' =>  DOMAIN . '/img/ins.png',
+        'tw' =>  DOMAIN . '/img/Tw.png',
+        'fb' =>  DOMAIN . '/img/FB.png'
     );
 
     const DIR = array(
