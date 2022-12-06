@@ -90,7 +90,10 @@
 </head>
 
 
-<?php include_once INCLUDES['header-template'] ?> 
+<?php include_once INCLUDES['header-template'] ?>
+<?php include_once INCLUDES['login-signup-template'] ?>
+
+</nav>
 
 <hr class="hori">
 <div class="text-center">

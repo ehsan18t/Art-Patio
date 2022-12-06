@@ -22,7 +22,8 @@
         'connection' => INC_DOMAIN . '/include/connection.php',
         'main-function' => INC_DOMAIN . '/include/main-function.php',
         'header-template' => INC_DOMAIN . '/template/header.php',
-        'footer-template' => INC_DOMAIN . '/template/footer.php'
+        'footer-template' => INC_DOMAIN . '/template/footer.php',
+        'login-signup-template' => INC_DOMAIN . '/template/login-signup-template.php'
     );
 
     // Resources
