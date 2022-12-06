@@ -35,8 +35,7 @@ if(isset($_POST['submit'])){
 
 ?>
 
-<?php include_once INCLUDES['header-template'] ?>
-	</nav> 
+<?php include_once INCLUDES['global-header-template'] ?>
 
 <div class="form-container">
 

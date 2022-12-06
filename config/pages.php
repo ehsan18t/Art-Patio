@@ -23,6 +23,8 @@
         'main-function' => INC_DOMAIN . '/include/main-function.php',
         'header-template' => INC_DOMAIN . '/template/header.php',
         'footer-template' => INC_DOMAIN . '/template/footer.php',
+        'home-header-template' => INC_DOMAIN . '/template/home-header.php',
+        'global-header-template' => INC_DOMAIN . '/template/global-header.php',
         'login-signup-template' => INC_DOMAIN . '/template/login-signup-template.php'
     );
 
