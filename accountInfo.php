@@ -1,13 +1,5 @@
 <?php 
-
-	//Connect to mysql database
-	$connection = mysqli_connect('localhost','mithila','Mithila1234','account_detail');
-
-	//connection check
-	if (!$connection) {
-		echo 'Connection error: '.mysqli_connect_error();
-	}
-
+	require_once(INCLUDES['connection']);
 
 	// write query for all Account
 	$sql1 = 'SELECT * FROM information ORDER BY CreatedTime';
@@ -39,7 +31,7 @@
 		color: black;
 	}
 </style>
-	<?php include('header.php') ?>
+	<?php include(INCLUDES['header-template']) ?>
 	<h1><?php echo 'Showing All User Information'; ?></h1>
 
 <h4 class="center grey-text">Account</h4>

@@ -85,7 +85,8 @@
 </head>
 
 
-	<?php include('header.php') ?> 
+<?php include('header.php') ?> 
+<?php INCLUDES['header-template'] ?> 
 
 <hr class="hori">
 <div class="text-center">
@@ -93,7 +94,6 @@
 </div>
 
 
- 
 <h3 class="textHomePage">
 	"The artist is a receptacle for emotions that come from all over the place: from the sky,<br>from the earth, from a scrap of paper,from a passing shape,<br>from a spider's web. Inspiration exists, <br>but it has to find you working"<br>
 	-PABLO PICASSO
@@ -106,5 +106,5 @@
 		<a href="instagram.com" class="ins.png"></a>
 </div> -->
 
-<?php include('footer.php') ?> 
+<!-- <?php include('footer-template') ?>  -->
 </html>
