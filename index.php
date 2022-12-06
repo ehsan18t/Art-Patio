@@ -39,13 +39,19 @@
 	100%{ background-image: url(<?php echo IMG['13'] ?>); }
 }
 
+.center {
+	display: flex;
+	justify-content: center;
+	color: green;
+}
+
 .textHomePage{
 	color: white;
 	font-size: 28px;
 	text-align: center;
-	position: absolute;
-	margin-top: 350px;
-	margin-left: 400px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 250px;
 	background-color: #488280;
 	opacity: 0.7;
 }
@@ -92,7 +98,7 @@
 </div>
 
 
-<h3 class="textHomePage">
+<h3 class="textHomePage center">
 	"The artist is a receptacle for emotions that come from all over the place: from the sky,<br>from the earth, from a scrap of paper,from a passing shape,<br>from a spider's web. Inspiration exists, <br>but it has to find you working"<br>
 	-PABLO PICASSO
 </h3>
